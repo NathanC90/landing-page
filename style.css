@@ -33,3 +33,12 @@
     color: #F9FAF8;
     margin: 0 20px;
 }
+
+.main {
+    background-color: #1F2937;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 20px;
+    color: #F9FAF8;
+}

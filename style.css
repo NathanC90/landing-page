@@ -31,8 +31,9 @@
 
 .header-links li a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
     margin: 0 20px;
+    font-size: 18px;
 }
 
 .main {

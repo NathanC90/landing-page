@@ -52,6 +52,10 @@
     gap: 15px;
 }
 
+.secondary-text{
+    color: #E5E7EB;
+}
+
 .sign-up {
     width: 80px;
     height: 25px;

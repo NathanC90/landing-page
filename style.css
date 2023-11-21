@@ -20,6 +20,10 @@
     margin-left: 30px;
 }
 
+.header-logo:hover {
+    cursor: pointer;
+}
+
 .header-links {
     display: flex;
     justify-content: space-between;
@@ -65,6 +69,10 @@
     border-radius: 5px;
 }
 
+.sign-up:hover {
+    cursor: pointer;
+}
+
 .main img {
     width: 40%;
     height: 60%;
@@ -107,6 +115,10 @@
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+
+.portfolio:hover {
+    cursor: pointer;
 }
 
 .card p {
@@ -174,4 +186,9 @@
 .footer a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.header-links li a:hover,
+.footer a:hover {
+    text-decoration: underline;
 }

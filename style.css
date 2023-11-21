@@ -71,6 +71,8 @@
 
 .sign-up:hover {
     cursor: pointer;
+    border: 1px solid #E5E7EB;
+    text-decoration: underline;
 }
 
 .main img {
@@ -170,6 +172,10 @@
 
 .contact-box .sign-up {
     border: 1px solid #E5E7EB;
+}
+
+.contact-box .sign-up:hover {
+    text-decoration: underline;
 }
 
 .footer {

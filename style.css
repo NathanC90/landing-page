@@ -136,6 +136,7 @@
     align-items: center;
     flex-direction: column;
     padding: 80px;
+    margin-bottom: 20px;
 }
 
 .quote {
@@ -201,6 +202,11 @@
 }
 
 @media screen and (max-width: 960px) {
+
+    .testimonial {
+        padding: 70px;
+    }
+
     .contact-box {
         flex-direction: column;
         justify-content: center;
@@ -213,7 +219,35 @@
 }
 
 @media screen and (max-width: 720px) {
+
+    .testimonial {
+        padding: 60px;
+    }
+    
     .quote {
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .quote {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .testimonial {
+        padding: 30px;
+    }
+    .quote {
+        font-size: 20px;
+    }
+
+    .witness {
+        font-size: 18px;
+    }
+
+    .text-container {
+        font-size: 12px;
     }
 }
